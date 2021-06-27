@@ -1,6 +1,6 @@
 FROM centos:latest
 MAINTAINER deepakprasadc@gmall.com 
-RUN yum install -y httpd \
+RUN yum install httpd -y \
  zip \
 unzip	
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page1/modular-business.zip /var/www/html/ 
