@@ -9,4 +9,4 @@ RUN unzip modular-business.zip
 RUN cp.rvf markups-modular-business/* .
 RUN rm.rf _MACOSX markups-modular-business modular-business.zip 
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 
