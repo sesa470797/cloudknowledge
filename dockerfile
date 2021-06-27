@@ -8,5 +8,5 @@ WORKDIR /var/www/html
 RUN unzip lamoda.zip
 RUN cp -rvf lamoda/* .
 RUN rm -rf lamoda lamoda.zip 
-CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
