@@ -7,6 +7,6 @@ ADD https://www.free-css.com/assets/files/free-css-templates/download/page1/modu
 WORKDIR /var/www/html
 RUN unzip modular-business.zip
 RUN cp.rvf markups-modular-business/* .
-RUN rm.rf_MACOSX markups-modular-business modular-business.zip 
+RUN rm.rf _MACOSX markups-modular-business modular-business.zip 
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
 EXPOSE 80
